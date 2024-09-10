@@ -16,5 +16,4 @@ resource "aws_security_group" "Allow_ssh" {
      cidr_blocks      = ["0.0.0.0/0"] # aloowing from every one 
      ipv6_cidr_blocks = ["::/0"]
     }
-
 }
