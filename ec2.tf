@@ -1,5 +1,5 @@
 resource "aws_security_group" "Allow_ssh" {
-    name = "alloe ssh"
+    name = "allow sshh"
     description = "allow port number 22 for ssh access"
      egress {
      from_port        = 0
